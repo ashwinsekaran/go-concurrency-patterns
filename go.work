@@ -1,0 +1,8 @@
+go 1.22.0
+
+use (
+	./fanout-channel
+	./select-multichannel
+	./worker-pool-basic
+	./worker-pool-traced
+)
